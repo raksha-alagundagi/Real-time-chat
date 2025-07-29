@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/chat-icon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="A modern real-time chat application with multiple rooms, user presence, and message reactions" />
+    <meta name="keywords" content="chat, messaging, real-time, communication, team chat" />
+    <meta name="author" content="Your Name" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://your-domain.com/" />
+    <meta property="og:title" content="ChatFlow - Real-time Chat Application" />
+    <meta property="og:description" content="Connect and collaborate in real-time with our modern chat application" />
+    <meta property="og:image" content="/og-image.png" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://your-domain.com/" />
+    <meta property="twitter:title" content="ChatFlow - Real-time Chat Application" />
+    <meta property="twitter:description" content="Connect and collaborate in real-time with our modern chat application" />
+    <meta property="twitter:image" content="/og-image.png" />
+
+    <title>ChatFlow - Real-time Chat Application</title>
+    
+    <!-- CSS Variables for theming -->
+    <style>
+      :root {
+        --primary: 220 90% 56%;
+        --primary-foreground: 220 90% 95%;
+        --secondary: 220 14.3% 95.9%;
+        --secondary-foreground: 220.9 39.3% 11%;
+        --muted: 220 14.3% 95.9%;
+        --muted-foreground: 220 8.9% 46.1%;
+        --accent: 220 14.3% 95.9%;
+        --accent-foreground: 220.9 39.3% 11%;
+        --destructive: 0 84.2% 60.2%;
+        --destructive-foreground: 210 20% 98%;
+        --border: 220 13% 91%;
+        --input: 220 13% 91%;
+        --ring: 220 90% 56%;
+        --background: 0 0% 100%;
+        --foreground: 220.9 39.3% 11%;
+        --card: 0 0% 100%;
+        --card-foreground: 220.9 39.3% 11%;
+        --popover: 0 0% 100%;
+        --popover-foreground: 220.9 39.3% 11%;
+        --radius: 0.5rem;
+      }
+
+      .dark {
+        --primary: 220 90% 56%;
+        --primary-foreground: 220 90% 95%;
+        --secondary: 220 14.3% 15%;
+        --secondary-foreground: 210 20% 98%;
+        --muted: 220 14.3% 15%;
+        --muted-foreground: 217.9 10.6% 64.9%;
+        --accent: 220 14.3% 15%;
+        --accent-foreground: 210 20% 98%;
+        --destructive: 0 62.8% 30.6%;
+        --destructive-foreground: 210 20% 98%;
+        --border: 220 14.3% 15%;
+        --input: 220 14.3% 15%;
+        --ring: 220 90% 56%;
+        --background: 220.9 39.3% 11%;
+        --foreground: 210 20% 98%;
+        --card: 220.9 39.3% 11%;
+        --card-foreground: 210 20% 98%;
+        --popover: 220.9 39.3% 11%;
+        --popover-foreground: 210 20% 98%;
+      }
+
+      * {
+        border-color: hsl(var(--border));
+      }
+
+      body {
+        background-color: hsl(var(--background));
+        color: hsl(var(--foreground));
+        font-feature-settings: "rlig" 1, "calt" 1;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
