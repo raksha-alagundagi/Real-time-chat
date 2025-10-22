@@ -2,7 +2,7 @@
 
 A modern, feature-rich real-time chat application built with React, TypeScript, and Express. Experience seamless communication with multiple chat rooms, user presence indicators, message reactions, and a beautiful responsive interface.
 
-## 🚀 Features
+## Features
 
 - **Multi-room Chat System**: Join different channels for organized conversations
 - **Real-time Messaging**: Instant message delivery with typing indicators
@@ -14,7 +14,7 @@ A modern, feature-rich real-time chat application built with React, TypeScript, 
 - **Message History**: Persistent chat history with timestamps
 - **User Profiles**: Customizable avatars and status indicators
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Frontend**: React 19, TypeScript, Tailwind CSS
 - **Backend**: Express.js, Node.js
@@ -23,7 +23,7 @@ A modern, feature-rich real-time chat application built with React, TypeScript, 
 - **Icons**: Lucide React
 - **Styling**: Tailwind CSS with custom design system
 
-## 📦 Installation
+## Installation
 
 1. **Clone the repository:**
    ```bash
@@ -50,7 +50,7 @@ A modern, feature-rich real-time chat application built with React, TypeScript, 
    - Frontend: http://localhost:3000
    - Backend API: http://localhost:3001
 
-## 🏗️ Project Structure
+##  Project Structure
 
 ```
 realtime-chat-application/
@@ -96,7 +96,7 @@ realtime-chat-application/
         └── index.ts
 ```
 
-## 🎯 Usage
+##  Usage
 
 1. **Join the Chat**: Enter your name and select an avatar
 2. **Choose a Room**: Select from available chat channels
@@ -105,7 +105,7 @@ realtime-chat-application/
 5. **Toggle Theme**: Switch between light and dark modes
 6. **View Online Users**: See who's currently active in the sidebar
 
-## 🔧 Development
+##  Development
 
 ### Available Scripts
 
@@ -125,7 +125,7 @@ realtime-chat-application/
 - `POST /api/users` - Create a new user
 - `GET /api/users/:id/status` - Get user status
 
-## 🎨 Design System
+##  Design System
 
 The application uses a carefully crafted design system with:
 
@@ -138,7 +138,7 @@ The application uses a carefully crafted design system with:
 - **Spacing**: 8px grid system
 - **Animations**: Smooth transitions and micro-interactions
 
-## 🚀 Deployment
+## Deployment
 
 ### Deploy to Netlify
 
@@ -155,7 +155,7 @@ The application uses a carefully crafted design system with:
 2. Set the start script to serve the built application
 3. Push to Heroku
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch: `git checkout -b feature/amazing-feature`
@@ -163,20 +163,20 @@ The application uses a carefully crafted design system with:
 4. Push to the branch: `git push origin feature/amazing-feature`
 5. Open a Pull Request
 
-## 📝 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - Icons by [Lucide](https://lucide.dev/)
 - Images from [Pexels](https://pexels.com/)
 - Built with [React](https://reactjs.org/) and [Express](https://expressjs.com/)
 
-## 📞 Support
+##  Support
 
 If you have any questions or need help, please open an issue on GitHub or contact the maintainers.
 
 ---
 
-**Happy Chatting! 💬**
+**Happy Chatting! **
